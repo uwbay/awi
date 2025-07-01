@@ -1,0 +1,22 @@
+/* Menghilangkan margin dan padding default dari browser */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Mengatur gambar header */
+.gambar-atas {
+    width: 100%; /* Lebar gambar 100% dari layar */
+    height: auto; /* Tinggi menyesuaikan agar gambar tidak gepeng */
+    display: block; /* Menghilangkan spasi ekstra di bawah gambar */
+}
+
+/* Mengatur tulisan berjalan */
+.tulisan-berjalan {
+    background-color: #111; /* Warna latar belakang hitam */
+    color: white; /* Warna tulisan putih */
+    padding: 15px; /* Jarak di dalam kotak */
+    font-size: 20px; /* Ukuran tulisan */
+    font-weight: bold; /* Menebalkan tulisan */
+}
